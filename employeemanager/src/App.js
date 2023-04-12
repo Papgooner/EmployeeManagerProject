@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import StartPage from './Pages/StartPage';
+import {Routes, Route} from 'react-router-dom';
+import NotFoundPage from './Pages/NotFoundPage';
+import HomePage from './Pages/HomePage';
 
 function App() {
+  function bruh(){
+    console.log("bruh")
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+      <Route path="*" element={<NotFoundPage />} />
+      <Route path="/" element={<StartPage />} />
+      <Route path="/HomePage" element={<HomePage />} />
+      </Routes>
+
     </div>
   );
 }
