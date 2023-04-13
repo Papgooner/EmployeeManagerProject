@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    box-sizing:border-box;
+}
+
+.LoginScreenDiv { 
+    background-color: white;
+    width: 30em;
+    height: 35em;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(100,156,156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Login-Alt {
+    width: 80%;
+    height: 3em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Login-Alt div{
+    width: 45%;
+    height: 90%;
+    border-radius: 0.25em;
+    background-color: black;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.google { 
+    background-image: url("../Assets/Google__G__Logo.svg.png");
+}
+.facebook {
+    background-image: url("../Assets/facebook-icon-transparent-background-3.png")
+}
+

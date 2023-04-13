@@ -1,11 +1,9 @@
-import Header from "../Components/Header";
-import LoginScreen from "../Components/LoginScreen";
+import LoginForm from "../Components/LoginForm";
 
 function StartPage() {
     return (
-        <div>
-            <Header headerTitle="Employee Manager" /> 
-            <LoginScreen />
+        <div className="startPage">
+            <LoginForm />
         </div>
     )
 }

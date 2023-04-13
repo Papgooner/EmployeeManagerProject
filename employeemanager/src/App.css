@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Exo2', sans-serif;
 }
 
 .App-logo {
@@ -39,4 +40,12 @@
 
 .wrapper{
   padding: 20px;
+}
+
+.startPage {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
