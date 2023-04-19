@@ -27,7 +27,6 @@
     width: 45%;
     height: 90%;
     border-radius: 0.25em;
-    background-color: black;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -41,3 +40,69 @@
     background-image: url("../Assets/facebook-icon-transparent-background-3.png")
 }
 
+.LogininputBox {
+    border: none;
+    background-color: rgb(229,226,226);
+    height: 4em;
+    width: 80%;
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 2em;
+}
+
+.LogininputBox:focus {
+    outline-color: rgb(32,177,255)
+}
+
+.LoginForm{
+    width: 100%;
+}
+
+.Alt-Btn {
+    background-color: rgb(100,156,156)
+}
+
+.Alt-Btn:hover {
+    background-color: rgb(116, 163, 163)
+}
+
+.Login-Pri {
+    width: 40%;
+    height: 3em;
+    background-color: rgb(32, 177, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+.Login-Pri:hover {
+    transform: scale(1.1);
+}
+
+.Login-Pri-Text {
+    position: relative;
+    bottom: -2em;
+}
+
+.hide { 
+    display: none;
+}
+
+.loginPopUp {
+    position: absolute;
+    height: 30em;
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25em;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    transform: scale(1);
+    transform: 1.5s;
+}
