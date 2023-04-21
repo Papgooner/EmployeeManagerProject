@@ -88,7 +88,8 @@
 }
 
 .hide { 
-    display: none;
+    position: absolute;
+    transition: scale(1);
 }
 
 .loginPopUp {
@@ -104,5 +105,5 @@
     color: white;
     bottom: 0;
     transform: scale(1);
-    transform: 1.5s;
+    transition: 1.5s;
 }
