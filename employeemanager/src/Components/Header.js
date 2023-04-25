@@ -1,7 +1,9 @@
+import "./Header.css";
+
 function Header(props) {
     return (
         <div>
-            <h2>{props.headerTitle}</h2>
+            <h2 className="header-title">{props.headerTitle}</h2>
         </div>
     )
 }
